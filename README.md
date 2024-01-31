@@ -1,2 +1,2 @@
-# Veilog
+# Verilog
 For learning
