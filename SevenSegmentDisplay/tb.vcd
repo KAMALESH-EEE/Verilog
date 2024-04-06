@@ -1,0 +1,191 @@
+$date
+	Sat Apr 06 21:06:19 2024
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ps
+$end
+
+$scope module tb $end
+$var integer 32 ! i $end
+$var reg 4 " in [3:0] $end
+$var wire 1 # A $end
+$var wire 1 $ B $end
+$var wire 1 % C $end
+$var wire 1 & D $end
+$var wire 1 ' E $end
+$var wire 1 ( F $end
+$var wire 1 ) G $end
+
+$scope module dut $end
+$var parameter 7 * _0 $end
+$var parameter 7 + _1 $end
+$var parameter 7 , _2 $end
+$var parameter 7 - _3 $end
+$var parameter 7 . _4 $end
+$var parameter 7 / _5 $end
+$var parameter 7 0 _6 $end
+$var parameter 7 1 _7 $end
+$var parameter 7 2 _8 $end
+$var parameter 7 3 _9 $end
+$var wire 1 4 in [3] $end
+$var wire 1 5 in [2] $end
+$var wire 1 6 in [1] $end
+$var wire 1 7 in [0] $end
+$var reg 1 8 A $end
+$var reg 1 9 B $end
+$var reg 1 : C $end
+$var reg 1 ; D $end
+$var reg 1 < E $end
+$var reg 1 = F $end
+$var reg 1 > G $end
+$var reg 7 ? in_out [6:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 "
+18
+19
+1:
+1;
+1<
+1=
+0>
+b1111110 ?
+b1111110 *
+b110000 +
+b1101101 ,
+b1111001 -
+b110011 .
+b1011011 /
+b1011111 0
+b1110000 1
+b1111111 2
+b1111011 3
+b0 !
+1#
+1$
+1%
+1&
+1'
+1(
+0)
+07
+06
+05
+04
+$end
+#10
+b1 !
+b1 "
+17
+b110000 ?
+0=
+0<
+0;
+08
+0(
+0'
+0&
+0#
+#20
+b10 !
+b10 "
+07
+16
+b1101101 ?
+1>
+1<
+1;
+0:
+18
+1)
+1'
+1&
+0%
+1#
+#30
+b11 !
+b11 "
+17
+b1111001 ?
+0<
+1:
+0'
+1%
+#40
+b100 !
+b100 "
+07
+06
+15
+b110011 ?
+1=
+0;
+08
+1(
+0&
+0#
+#50
+b101 !
+b101 "
+17
+b1011011 ?
+1;
+09
+18
+1&
+0$
+1#
+#60
+b110 !
+b110 "
+07
+16
+b1011111 ?
+1<
+1'
+#70
+b111 !
+b111 "
+17
+b1110000 ?
+0>
+0=
+0<
+0;
+19
+0)
+0(
+0'
+0&
+1$
+#80
+b1000 !
+b1000 "
+07
+06
+05
+14
+b1111111 ?
+1>
+1=
+1<
+1;
+1)
+1(
+1'
+1&
+#90
+b1001 !
+b1001 "
+17
+b1111011 ?
+0<
+0'
+#100
+b1010 !
